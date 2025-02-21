@@ -2642,7 +2642,7 @@ Equation: [-9.0, 0.0, -4.0, 0.0, 0.0]
 Solutions: [-0.0, 0.0]
 Equation: [4.0, 0.0, 16.0, 0.0, 0.0]
 Solutions: [-0.0, 0.0]
-equations with no solutions: 27
+equations with ? solutions: 27
 equations with 0 solutions: 357
 equations with 1 solutions: 373
 equations with 2 solutions: 508
