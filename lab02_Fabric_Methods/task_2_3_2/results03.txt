@@ -5321,7 +5321,7 @@ Solutions: [-1.5]
 Equation: [0.0, -14.0]
 Solutions: []
 equations with 0 solutions: 720
-equations with no solutions: 44
+equations with ? solutions: 44
 equations with 1 solutions: 748
 equations with 2 solutions: 1045
 equations with 4 solutions: 104
