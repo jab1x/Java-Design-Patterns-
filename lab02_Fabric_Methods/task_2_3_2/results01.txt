@@ -115,7 +115,7 @@ Solutions: [-1.4142135623730951, -1.0, 1.0, 1.4142135623730951]
 Equation: [0.0, 0.0, 0.0, 0.0, 0.0]
 Solutions: [-Infinity, Infinity]
 equations with 0 solutions: 11
-equations with no solutions: 1
+equations with ? solutions: 1
 equations with 1 solutions: 14
 equations with 2 solutions: 30
 equations with 4 solutions: 2
