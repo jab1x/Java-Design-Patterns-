@@ -1,0 +1,3 @@
+interface CoffeeMachineFactory {
+    CoffeeMachine createCoffeeMachine();
+}
