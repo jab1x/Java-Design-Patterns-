@@ -1,4 +1,4 @@
-class Director {
+public class Director {
     private static Director instance;
 
     private Director() {}
