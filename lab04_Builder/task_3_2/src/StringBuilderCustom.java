@@ -1,4 +1,4 @@
-class StringBuilderCustom {
+public class StringBuilderCustom {
     private StringBuilder builder;
 
     public StringBuilderCustom() {
