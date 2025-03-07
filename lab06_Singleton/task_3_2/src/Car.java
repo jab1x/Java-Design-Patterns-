@@ -1,4 +1,4 @@
-class Car {
+public class Car {
     private String bodyType;
     private Engine engine;
     private Transmission transmission;
