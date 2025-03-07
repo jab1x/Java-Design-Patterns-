@@ -1,4 +1,4 @@
-class Transmission {
+public class Transmission {
     private String type;
     private int gears;
 
