@@ -1,4 +1,4 @@
-class USBTypeCToMicroUSBAdapter implements MicroUSB {
+public class USBTypeCToMicroUSBAdapter implements MicroUSB {
     private USBTypeC usbTypeCCharger;
 
     public USBTypeCToMicroUSBAdapter(USBTypeC usbTypeCCharger) {
