@@ -1,4 +1,4 @@
-abstract class CoffeeMachine {
+public abstract class CoffeeMachine {
     protected String manufacturer;
     protected int machineCost;
     protected int maintenanceCost;
