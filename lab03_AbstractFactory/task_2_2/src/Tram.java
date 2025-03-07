@@ -1,4 +1,4 @@
-class Tram extends Transport {
+public class Tram extends Transport {
     public Tram(String manufacturer, int cost, int operationCost) {
         super(manufacturer, cost, operationCost);
     }
