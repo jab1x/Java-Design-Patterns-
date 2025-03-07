@@ -1,4 +1,4 @@
-interface Product {
+public interface Product {
     void doSomething();
 }
 
