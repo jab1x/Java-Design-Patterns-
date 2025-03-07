@@ -1,4 +1,4 @@
-class QuadraticEquation extends Equation {
+public class QuadraticEquation extends Equation {
     private double a, b, c;
 
     public QuadraticEquation(double a, double b, double c) {
