@@ -1,4 +1,4 @@
-abstract class Transport {
+public abstract class Transport {
     protected String manufacturer;
     protected int cost;
     protected int operationCost;
