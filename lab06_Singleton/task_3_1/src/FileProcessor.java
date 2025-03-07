@@ -1,4 +1,4 @@
-class FileProcessor {
+public class FileProcessor {
     private static FileProcessor instance;
     
     private FileProcessor() {}
