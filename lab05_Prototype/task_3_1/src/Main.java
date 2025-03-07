@@ -1,5 +1,5 @@
 // як приклад роботи
-public class EquationPrototypeDemo { 
+public class Main { 
     public static void main(String[] args) {
         LinearEquation linear = new LinearEquation(2, 5);
         QuadraticEquation quadratic = new QuadraticEquation(1, -3, 2);
