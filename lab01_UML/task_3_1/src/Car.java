@@ -1,4 +1,4 @@
-class Car {
+public class Car {
     private Engine engine;
     private Wheel wheel;
 
