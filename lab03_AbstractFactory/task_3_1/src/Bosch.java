@@ -1,4 +1,4 @@
-class Bosch extends CoffeeMachine {
+public class Bosch extends CoffeeMachine {
     public Bosch() {
         super("Bosch", 22000, 550, 11, 52);
     }
