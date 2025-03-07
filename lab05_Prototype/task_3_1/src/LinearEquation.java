@@ -1,4 +1,4 @@
-class LinearEquation extends Equation {
+public class LinearEquation extends Equation {
     private double a, b;
 
     public LinearEquation(double a, double b) {
