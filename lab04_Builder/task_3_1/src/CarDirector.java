@@ -1,4 +1,4 @@
-class CarDirector {
+public class CarDirector {
     public Car buildSUV() {
         return new CarBuilder()
                 .setBodyType("SUV")
