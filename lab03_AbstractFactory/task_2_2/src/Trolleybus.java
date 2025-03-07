@@ -1,4 +1,4 @@
-class Trolleybus extends Transport {
+public class Trolleybus extends Transport {
     public Trolleybus(String manufacturer, int cost, int operationCost) {
         super(manufacturer, cost, operationCost);
     }
