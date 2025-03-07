@@ -1,4 +1,4 @@
-class PhilipsFactory implements CoffeeMachineFactory {
+public class PhilipsFactory implements CoffeeMachineFactory {
     @Override
     public CoffeeMachine createCoffeeMachine() {
         return new Philips();
