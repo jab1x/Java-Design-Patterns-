@@ -1,4 +1,4 @@
-class Wheels {
+public class Wheels {
     private String material;
     private int diameter;
 
