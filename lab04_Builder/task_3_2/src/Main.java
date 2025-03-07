@@ -1,4 +1,4 @@
-public class StringBuilderDemo {
+public class Main {
     public static void main(String[] args) {
         StringBuilderCustom customBuilder = new StringBuilderCustom();
         String result = customBuilder.append("Hello")
