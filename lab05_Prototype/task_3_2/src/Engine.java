@@ -1,4 +1,4 @@
-class Engine implements Cloneable {
+public class Engine implements Cloneable {
     private int power;
     private double volume;
     private int torque;
