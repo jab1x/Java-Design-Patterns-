@@ -1,4 +1,4 @@
-class VolvoFactory implements TransportFactory {
+public class VolvoFactory implements TransportFactory {
     @Override
     public Bus createBus() {
         return new Bus("Volvo", 6000000, 20);
