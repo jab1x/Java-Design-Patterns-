@@ -1,4 +1,4 @@
-class Philips extends CoffeeMachine {
+public class Philips extends CoffeeMachine {
     public Philips() {
         super("Philips", 25000, 600, 12, 55);
     }
