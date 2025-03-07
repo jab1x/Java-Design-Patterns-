@@ -1,4 +1,4 @@
-class Transmission implements Cloneable {
+public class Transmission implements Cloneable {
     private String type;
     private int gears;
 
