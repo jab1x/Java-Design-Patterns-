@@ -1,4 +1,4 @@
-class CarBuilder {
+public class CarBuilder {
     private String bodyType;
     private Engine engine;
     private Transmission transmission;
