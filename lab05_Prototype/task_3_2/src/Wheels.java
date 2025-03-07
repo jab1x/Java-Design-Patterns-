@@ -1,4 +1,4 @@
-class Wheels implements Cloneable {
+public class Wheels implements Cloneable {
     private String material;
     private int diameter;
 
