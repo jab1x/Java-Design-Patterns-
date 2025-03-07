@@ -1,4 +1,4 @@
-public class CoffeeBusinessDemo { // демонстрація роботи
+public class Main { // демонстрація роботи
     public static void main(String[] args) {
         int days = 30; // місяць
         int cupsPerDay = 50;
