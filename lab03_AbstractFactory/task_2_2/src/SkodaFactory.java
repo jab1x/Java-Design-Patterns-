@@ -1,4 +1,4 @@
-class SkodaFactory implements TransportFactory {
+public class SkodaFactory implements TransportFactory {
     @Override
     public Bus createBus() {
         return new Bus("Skoda", 4500000, 25);
