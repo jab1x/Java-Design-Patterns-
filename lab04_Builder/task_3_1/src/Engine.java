@@ -1,4 +1,4 @@
-class Engine {
+public class Engine {
     private int power;
     private double volume;
     private int torque;
