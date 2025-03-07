@@ -1,4 +1,4 @@
-class CoffeeFactory {
+public class CoffeeFactory {
     public static Coffee createCoffee(String type) {
         return switch (type.toLowerCase()) {
             case "espresso" -> new Espresso();
