@@ -1,4 +1,4 @@
-class Car implements Cloneable {
+public class Car implements Cloneable {
     private String bodyType;
     private Engine engine;
     private Transmission transmission;
