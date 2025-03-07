@@ -1,4 +1,4 @@
-class DeLonghi extends CoffeeMachine {
+public class DeLonghi extends CoffeeMachine {
     public DeLonghi() {
         super("DeLonghi", 20000, 500, 10, 50);
     }
