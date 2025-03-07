@@ -1,4 +1,4 @@
-abstract class Creator {
+public abstract class Creator {
     abstract Product createProduct();
     
     public void someOperation() {
