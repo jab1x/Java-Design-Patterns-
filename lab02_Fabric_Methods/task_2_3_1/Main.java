@@ -1,4 +1,4 @@
-public class CoffeeShopSimulation {
+public class Main {
     public static void main(String[] args) {
         CoffeeShop shop = new CoffeeShop();
 
