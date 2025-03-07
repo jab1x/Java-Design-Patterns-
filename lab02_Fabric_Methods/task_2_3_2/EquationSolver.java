@@ -3,7 +3,7 @@ import java.util.*;
 
 
 
-public abstract class Equation {
+abstract class Equation {
     public abstract List<Double> solve();
 }
 
