@@ -1,4 +1,4 @@
-class CoffeeShop {
+public class CoffeeShop {
     private double totalProfit = 0;
 
     public void sellCoffee(String coffeeType, int quantity) {
