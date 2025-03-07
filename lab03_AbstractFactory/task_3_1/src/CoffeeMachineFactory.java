@@ -1,3 +1,3 @@
-interface CoffeeMachineFactory {
+public interface CoffeeMachineFactory {
     CoffeeMachine createCoffeeMachine();
 }
