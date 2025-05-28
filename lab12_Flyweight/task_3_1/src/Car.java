@@ -1,28 +1,36 @@
-import java.util.List;
-
 public class Car {
-    private final Engine engine;
-    private final List<Wheel> wheels;
+  public enum CarColor {
+    White,
+    Black,
+    Red,
+    Grey
+  }
 
-    public Car(Engine engine, List<Wheel> wheels) {
-        this.engine = engine;
-        this.wheels = wheels;
-    }
+  public enum Type {
+    Sedan,
+    Hatchback,
+    SUV
+  }
 
-    public Engine getEngine() {
-        return engine;
-    }
+  final private Type type;
+  final private CarColor carColor;
+  final private Engine engine;
+  final private Wheel wheel;
 
-    public List<Wheel> getWheels() {
-        return wheels;
-    }
+  public Car(Type type, CarColor carColor,
+             Engine engine, Wheel wheel) {
+    this.type = type;
+    this.carColor = carColor;
+    this.engine = engine;
+    this.wheel = wheel;
+  }
 
-    public void drive() {
-        engine.start();
-        for (Wheel w : wheels) {
-            w.rotate();
-        }
-        System.out.println("Car is driving with engine [" + engine.getType() +
-                           "] and wheels [" + wheels.get(0).getModel() + "]");
-    }
+  public void showInfo() {
+    System.out.println( "Car:\n" +
+            "type=" + type +
+            ",\ncarColor=" + carColor +
+            ",\nengine=" + engine +
+            ",\nwheel=" + wheel +
+            '\n');
+  }
 }
