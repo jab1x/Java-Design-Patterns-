@@ -1,15 +1,22 @@
 public class Wheel {
-    private final String model;
-
-    public Wheel(String model) {
-        this.model = model;
+    public enum Material {
+        Steel, //  стальний диск
+        Alloy  //  легкосплавний
     }
 
-    public String getModel() {
-        return model;
+    final private Material material;
+    final int diameter;
+
+    public Wheel(int diameter) {
+        this.material = Material.Steel;
+        this.diameter = diameter;
     }
 
-    public void rotate() {
-        System.out.println("Wheel " + model + " rotating.");
+    @Override
+    public String toString() {
+        return "Wheel{" +
+                "material=" + material +
+                ", diameter=" + diameter +
+                '}';
     }
 }
