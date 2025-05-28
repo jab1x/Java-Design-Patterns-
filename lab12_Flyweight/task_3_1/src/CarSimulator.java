@@ -32,8 +32,8 @@ public class CarSimulator {
     Car car = carBuilder
             .reset()
             .setCarColor(color)
-            .setEngine(new Engine(power, fuel))
-            .setWheel(new Wheel(wheel_diameter))
+            .setEngine(EngineFactory.getEngine(power, fuel))
+            .setWheel(WheelFactory.getWheel(wheel_diameter))
             .build();
     System.out.println("Creating " + car);
     car.showInfo();
