@@ -1,15 +1,23 @@
 public class Engine {
-    private final String type;
-
-    public Engine(String type) {
-        this.type = type;
+    public enum Fuel {
+        Petrol,
+        Diesel,
+        Electric
     }
 
-    public String getType() {
-        return type;
+    final int power;
+    final Fuel fuel;
+
+    public Engine(int power, Fuel fuel) {
+        this.power = power;
+        this.fuel = fuel;
     }
 
-    public void start() {
-        System.out.println("Engine " + type + " started.");
+    @Override
+    public String toString() {
+        return "Engine{" +
+                "power=" + power +
+                ", fuel=" + fuel +
+                '}';
     }
 }
