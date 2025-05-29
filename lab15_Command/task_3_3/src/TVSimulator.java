@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class TVSimulator {
     public static void main(String[] args) {
         Device tv    = new Television();
         Device radio = new Radio();
